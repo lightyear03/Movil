@@ -1,5 +1,8 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+        //POR: MARTI}ÍNEZ PANTALEÓN JOSÉ DE JESÚS
+        // 6NM61
+        // PROGRAMACIÓN MOVIL
+        //PROFESOR: FRANCISCO BUENO
+
 /* REACTIVO 3. CREAR UNA VARIABLE CONST CON EL NUMERO PI QUE MULTIPLIQUE A NUESTRO NUMERO */
 const val  PI= 3.1416
 
