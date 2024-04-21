@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"> <!-- Cambio de color del fondo -->
+
+    <!-- Encabezado de la aplicación -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reto 02"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:gravity="left|center_vertical"
+            android:background="@color/purple"
+            android:paddingStart="0dp"
+            android:paddingEnd="-10dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="-115dp"
+            android:layout_marginBottom="0dp"/>
+
+    <!-- Campo de nombre con icono de usuario -->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+        <ImageView
+                android:layout_width="42dp"
+                android:layout_height="31dp"
+                android:src="@drawable/ic_user"
+                android:layout_gravity="center_vertical"/>
+
+        <EditText
+                android:id="@+id/editTextNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginStart="8dp"/> <!-- Cambio de color del texto -->
+
+    </LinearLayout>
+
+    <!-- Campo de apellidos con icono de usuario -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+        <ImageView
+                android:layout_width="44dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_user"
+                android:layout_gravity="center_vertical"/>
+
+        <EditText
+                android:id="@+id/editTextApellidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Apellidos"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginStart="8dp"/> <!-- Cambio de color del texto -->
+
+    </LinearLayout>
+
+    <!-- Campo de teléfono con icono de celular -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+        <ImageView
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_phone"
+                android:layout_gravity="center_vertical"/>
+
+        <EditText
+                android:id="@+id/editTextTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Teléfono"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginStart="8dp"/> <!-- Cambio de color del texto -->
+
+    </LinearLayout>
+
+    <!-- Campo de correo electrónico con icono de sobre -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+        <ImageView
+                android:layout_width="48dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_email"
+                android:layout_gravity="center_vertical"/>
+
+        <EditText
+                android:id="@+id/editTextCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo electrónico"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginStart="8dp"/> <!-- Cambio de color del texto -->
+
+    </LinearLayout>
+
+    <!-- Botón de Aceptar -->
+    <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="16dp"/> <!-- Aumento de espacio del botón -->
+
+    <!-- Espacio para la imagen de autenticación -->
+    <ImageView
+            android:id="@+id/imageViewResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="249dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_check_green"/>
+
+</LinearLayout>
