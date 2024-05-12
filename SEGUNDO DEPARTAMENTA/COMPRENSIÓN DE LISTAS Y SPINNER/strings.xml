@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="select_country">Select your country</string>
+    <string name="next">Next</string>
+
+    <string name="next_usa">Next</string>
+    <string name="next_mexico">Siguiente</string>
+    <string name="next_brasil">Seguindo</string>
+    <string name="next_france">Suivant</string>
+    <string name="next_deutsch">Folgende</string>
+    <string name="next_italia">Seguente</string>
+
+    <!-- Textos de bienvenida en diferentes países -->
+    <string name="welcome_message_usa">¡Welcome to USA!</string>
+    <string name="welcome_message_mexico">¡Bienvenido a México!</string>
+    <string name="welcome_message_brasil">¡Bem-vindo ao Brasil!</string>
+    <string name="welcome_message_france">¡Bienvenue en France!</string>
+    <string name="welcome_message_deutsch">¡Willkommen in Deutschland!</string>
+    <string name="welcome_message_italia">¡Benvenuto in Italia!</string>
+
+    <!-- Mensaje de bienvenida predeterminado -->
+    <string name="welcome_message_default">¡Bienvenido!</string>
+
+    <!-- Nombres de los países -->
+    <string name="country_usa">Select your Country</string>
+    <string name="country_mexico">Selecciona tu Pais</string>
+    <string name="country_brasil">Escolha o seu país</string>
+    <string name="country_france">Sélectionnez votre pays</string>
+    <string name="country_deutsch">Wähle dein Land</string>
+    <string name="country_italia">Seleziona il tuo paese</string>
+</resources>
